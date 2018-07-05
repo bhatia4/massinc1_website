@@ -1,3 +1,15 @@
+/*--logo--*/
+.img-logo1-index {
+  width: 270px;
+  height: 189px;
+  margin: 14px 8px;
+}
+.img-logo1-otherpages {
+  width: 130px;
+  height: 91px;
+  margin: 14px 8px;
+}
+
 /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -88,14 +100,17 @@ ul.top-icons li a:hover{
 ul.top-icons li a.fb{
  background:url('../images/icons.png') no-repeat 0px 0px;
 }
-ul.top-icons li a.twitt{
+ul.top-icons li a.goog{
  background:url('../images/icons.png') no-repeat -26px 0px;
 }
-ul.top-icons li a.goog{
+ul.top-icons li a.twitt{
  background:url('../images/icons.png') no-repeat -52px 0px;
 }
 ul.top-icons li a.drib{
  background:url('../images/icons.png') no-repeat -78px 0px;
+}
+ul.top-icons li a.linkedin{
+ background:url('../images/icons.png') no-repeat -104px 0px;
 }
 /*----*/
 .header {
@@ -183,7 +198,7 @@ ul.top-icons li a.drib{
 }
 .cd-header-buttons {
     position: absolute;
-    display: inline-block;
+    display: none; /*inline-block*/
     top: -50px;
     right: 0%;
 }
@@ -386,7 +401,7 @@ ul.top-icons li a.drib{
     min-height:250px;
 }
 .banner-info {
-    padding: 14em 0 0;
+    padding: 7em 0 0; /*14em 0 0;*/
     text-align: center;
 }
 .banner-info h2 {
@@ -396,8 +411,8 @@ ul.top-icons li a.drib{
     line-height: 1.4em;
 }
 .banner-info p {
-    font-size: 1.2em;
-    color: #a2a2a2;
+    font-size: 1.6em;
+    color: #c5c5c5;
     margin: 1em 0;
     line-height: 1.8em;
 }
@@ -2306,7 +2321,7 @@ h2.tit, h3.tit {
 	}
 	.navbar-toggle {
     margin-top: 7px;
-    margin-right: 55px;
+    /*margin-right: 55px;*/
     margin-bottom: 0;
 }
 .navbar-header h1 {
@@ -3384,7 +3399,7 @@ h2.tit, h3.tit {
 		margin: 0 0.5em;
 	}
 .email i, .phone i, .email em, .phone em, .email em a, .location i, .location em, .albums {
-    font-size: 10px;
+    font-size: 11px;
 }
 	span.email a {
     font-size: 11px;
