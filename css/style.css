@@ -1,13 +1,18 @@
 /*--logo--*/
 .img-logo1-index {
-  width: 270px;
-  height: 189px;
-  margin: 14px 8px;
+  width: 350px;
+  height: 245px;
 }
-.img-logo1-otherpages {
-  width: 130px;
-  height: 91px;
-  margin: 14px 8px;
+.img-logo2-otherpages {
+  width: 135px;
+}
+.img-logo3 {
+  width: 225px;
+}
+
+.footer-links a {
+    color: #fff;
+	style: bold;
 }
 
 /*--
@@ -766,6 +771,9 @@ ul.con-icons{
     height: 32px;
     display: inline-block;
     border: 1px solid #9caec2;
+}
+.fb_icons  li a.in{
+    background: url(../images/social.png) no-repeat -208px -7px;
 }
 .fb_icons  li a.fb{
     background: url(../images/social.png) no-repeat -48px -7px;
@@ -2827,6 +2835,13 @@ h3.tittle.con {
 }
 }
 @media (max-width:414px){
+	/*--logo--*/
+	.img-logo1-index {
+	  width: 340px;
+	  height: 238px;
+	  margin: 14px 8px;
+	}
+	
 	.fashion-grids.one img {
 		height: 392px;
 	}
@@ -2986,6 +3001,13 @@ h3.tittle.con {
 }
 }
 @media (max-width:384px){
+	/*--logo--*/
+	.img-logo1-index {
+	  width: 310px;
+	  height: 217px;
+	  margin: 14px 8px;
+	}
+	
 	.sub-text {
 		float: right;
 		width: 100%;
@@ -3257,6 +3279,17 @@ h2.tit, h3.tit {
 }
 }
 @media (max-width:320px){
+	/*--logo--*/
+	.img-logo1-index {
+	  width: 270px;
+	  height: 189px;
+	  margin: 14px 8px;
+	}
+	.img-logo2-otherpages {
+	  width: 135px;
+	  margin: 8px;
+	}
+
 	.banner {
 		min-height:230px;
 	}
@@ -3271,7 +3304,7 @@ h2.tit, h3.tit {
 	}
 	.navbar-toggle {
     margin-top: 6px;
-    margin-right:48px;
+    /*margin-right:48px;*/
     margin-bottom: 0;
 }
 	.fashion-info {
