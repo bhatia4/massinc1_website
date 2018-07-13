@@ -559,7 +559,7 @@ ul.top-icons li a.linkedin{
 }
 .slider3 p {
    margin: 0px 0 30px;
-    color: #fff;
+   min-height: 60px;
     font-size: 20px;
     line-height: 30px;
     font-style: italic;
@@ -640,12 +640,6 @@ ul.top-icons li a.linkedin{
     display: inline-block;
 }
 .ba-im {
-    background: url(../images/test.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     min-height: 300px;
     width: 55%;
     margin: 0 auto;
