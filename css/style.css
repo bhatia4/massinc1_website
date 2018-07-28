@@ -1479,9 +1479,8 @@ color: #111;
     padding: 5em 0;
 }
 .services-right p {
-    font-size: 1em;
-    color: #999;
-    line-height: 1.8em;
+    font-size: 0.8em;
+    line-height: 1.5em;
 }
 .services-grid:hover p {
     border-radius: 0%;
